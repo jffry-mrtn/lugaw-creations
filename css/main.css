@@ -1,0 +1,89 @@
+.container {
+  min-height: 100%;
+  width: 100%;
+  background-color: #FBE74D;
+  padding-top: 50px;
+  padding-bottom: 50px; }
+
+#hero {
+  height: 100%;
+  width: 100%;
+  margin-bottom: 35px;
+  z-index: 2; }
+
+#hero-bg {
+  background: url("../images/gallery/hero.jpg") 50% 50% no-repeat;
+  background-size: cover;
+  z-index: 1;
+  opacity: 0.1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%; }
+
+#logo {
+  max-width: 700px;
+  margin: auto;
+  display: block;
+  padding-top: 10em; }
+
+#slogan {
+  font-weight: 600;
+  font-size: 20px;
+  text-align: center;
+  margin-top: -20px;
+  color: #2a2a2a;
+  letter-spacing: 2px; }
+
+#info {
+  margin-top: 50px;
+  text-align: center;
+  font-weight: 600; }
+
+#gallery {
+  height: 100%;
+  max-width: 600px;
+  margin: 50px auto; }
+
+.section-title {
+  text-align: center;
+  font-size: 20px;
+  letter-spacing: 5px;
+  color: #5883C0;
+  margin-bottom: 10px; }
+
+.img-grid {
+  height: 180px;
+  width: 180px;
+  margin: 25px 5px 0px 5px;
+  display: inline-block;
+  border-radius: 5px;
+  cursor: pointer; }
+
+.img-grid:hover {
+  opacity: 0.7; }
+
+.img-group {
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 5px; }
+
+.img {
+  width: 100%; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: Helvetica, "Calibri", sans-serif; }
+
+a {
+  color: black; }
+
+/*# sourceMappingURL=main.css.map */
